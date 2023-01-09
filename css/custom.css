@@ -1,0 +1,572 @@
+@charset "utf-8";
+/* CSS Document */
+.d-block{
+	height:50%;
+}
+
+#hi{
+	font-family: 'Bebas Neue', cursive;
+	font-size:70px;
+	text-align: center;
+	color:darkgoldenrod;
+}
+
+#hi1{
+	font-family: 'Bebas Neue', cursive;
+	font-size:35px;
+	text-align: center;
+}
+
+#my-pic{
+	width:400px;
+	height:450px;
+}
+
+#hi2{
+	font-family: 'Bebas Neue', cursive;
+	font-size:25px;
+	text-align: center;
+}
+.qq1{
+	display: flex;
+	justify-content: center;
+}
+	
+.education{
+	background-color:orangered;
+	height: 750px;
+	background-size: cover;
+}
+
+#utm-logo{
+	width:250px; 
+	height:250px;
+}
+
+#s-logo{
+	width:250px; 
+	height:250px;
+}
+
+#ed1{
+	text-align:center;
+	font-size: 3em;
+	color: #fff;
+	font-family: 'Antic Slab', serif;
+}
+
+#t1{
+	text-align:end;
+	font-size:18px;
+	color: white;
+	
+}
+
+.qq2{
+	display: flex;
+	justify-content: center;
+}
+
+
+.experiences{
+	background-color:cornflowerblue;
+	height: 500px;
+	background-size: cover;
+}
+#ex1{
+	text-align:center;
+	font-size: 3em;
+	color: #fff;
+	font-family: 'Antic Slab', serif;
+}
+
+#ex2{
+text-align:center;
+color:#fff;
+font-size:20px;
+
+}
+
+.skills{
+	background-color:blueviolet;
+	height: 1500px;
+	background-size: cover;
+}
+
+#sk1{
+	font-family: 'Antic Slab', serif;
+	text-align:center;
+	font-size: 3em;
+	color: #fff;
+}
+
+.qq3{
+	display:flex;
+	justify-content: flex-start;
+}
+
+
+#ai-logo{
+	width:330px; 
+	height:300px;
+}
+
+#tri-logo{
+	width:330px; 
+	height:300px;
+}
+
+#web-logo{
+	width:330px; 
+	height:300px;
+	
+}
+
+#sk2{
+	color:#fff;
+	font-size:20px;
+	text-align: left;
+	padding-left:80px;
+}
+
+#sk3{
+	color:#fff;
+	font-size:20px;
+	text-align: left;
+	padding-left:75px;
+}
+.home{
+	background-image: url("../images/IMG_8809.JPG");
+	background-size: cover;
+	background-position: right;
+	height: 950px;
+}
+
+.title{
+	font-family: 'Cairo', sans-serif;
+	color:gold;
+	text-align:center;
+	font-size: 3em;
+	
+}
+
+
+.caption{
+	color:white;
+	text-align:center;
+	font-size:16px;
+}
+
+.container1{
+	
+	padding-top:745px;
+}
+
+
+.row{
+	display:flex;
+	justify-content: center;
+}
+
+.photograph{
+	display:flex;
+	justify-content: center;
+}
+
+.photography-title{
+	color:black;
+	font-size: 3em;
+	text-decoration: none;
+}
+
+.row1 > .column1 {
+  padding: 0 8px;
+}
+
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The Modal (background) */
+.modal1{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content1 {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.drawings{
+	display:flex;
+	justify-content: space-around;
+}
+
+.drawings-title{
+	font-family: 'Cairo', sans-serif;
+	color:#AC7D0C;
+	font-size: 3em;
+	text-decoration: none;
+	
+}
+
+.videos{
+	display:flex;
+	justify-content: space-around;
+}
+
+.videos-title{
+	color:black;
+	font-size: 3em;
+	text-decoration: none;
+}
+
+.video-spotlight{
+	min-width:100%;
+	min-height:100%;
+	position:relative;
+}
+
+.video-spotlight video{
+	width:100%;
+}
+
+.video-caption{
+	position:absolute;
+	z-index:1;
+	bottom:0;
+	background:rgba (0,0,0,0.5);
+	width:100%;
+	display:flex;
+	align-content: center;
+	justify-content: center;
+}
+
+.video-caption h1{
+	font-size:2em;
+	color:#fff;
+	text-transform:uppercase;
+	font-familiy:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+.blog-text{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	padding-top:1em;
+	font-size:2em;
+	text-align:center;
+}
+
+.news-title{
+	font-familiy:BureauGrotCond,impact,"avenir next condensed heavy","Droid";
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.headline{
+	font-familiy:BureauGrotCond,impact,"avenir next condensed heavy","Droid";
+	font-size:2em;	
+	text-align: center;
+	color: #000;
+	text-decoration: none;
+	justify-content: flex-start;
+}
+
+.headline:hover{
+	text-decoration: underline;
+	text-transform: uppercase;
+	color: #000;
+	font-weight:bold;
+}
+
+#ff,#slider,.wrap,.slide-content{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+
+.wrap {
+  position: relative;
+}
+
+.slide {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slide1 {
+  background-image: url("../images/_MG_5791.JPG");
+}
+.slide2 {
+  background-image: url("../images/_MG_5795.JPG");
+}
+.slide3 {
+  background-image: url("../images/IMG_8797.JPG");
+}
+
+.slide-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.slide-content span {
+font-family: 'Smooch', cursive;
+  font-size: 3rem;
+  color: #fff;
+}
+
+.arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  margin-top: -35px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+#arrow-left {
+  border-width: 30px 40px 30px 0;
+  border-color: transparent #fff transparent transparent;
+  left: 0;
+  margin-left: 30px;
+}
+
+#arrow-right {
+  border-width: 30px 0 30px 40px;
+  border-color: transparent transparent transparent #fff;
+  right: 0;
+  margin-right: 30px;
+}
+
+#website-logo{
+width:55px;
+height:55px;
+}
+
+
+#cv-background{
+	background-color:#d3d8db;
+		
+}
+
+.card-title{
+	text-align:center;
+	font-family: 'Antic Slab', serif;
+}
+
+.card-text{
+	font-size:18px;
+}
+
+#form-font{
+	font-size:24px;
+}
+
+.spotlight-home {
+	background-image: url("../images/DSC_0364.JPG");
+	background-size: cover;
+	background-position: center top;
+	height: 500px;
+}
+
+.spotlight-content {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+.spotlight-title {
+	font-size: 6.5em;
+
+}
+
+.AODA-title{
+	font-family: 'Cairo', sans-serif;
+	color:#AC7D0C;
+	font-size: 3em;
+	text-decoration: none;
+	text-align: center;
+}
+
+#AODA-pic{
+	weight:500px;
+	height:500px;
+	display:flex;
+	align-content: center;
+	justify-content: center;
+}
+
+#aoda-text{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size:2em;
+}
+
+#navi-pic{
+	weight:150x;
+	height:70px;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+#left{
+	text-align: center;
+	font-size:21px;
+}
+
+.chellenge-background{
+	background-color:#fff;
+}
+
+.darkgoldenrod-background{
+	background-color:darkgoldenrod;
+	height:150px;
+}
+
+.darkorange-background{
+	background-color:#AC7D0C;
+	height:150px;
+}
+.light-grayish-blue-background{
+	background-color:#d3d8db;
+	height:150px;
+}
+
+.very-light-gray-background{
+	background-color:#fefefe;
+	height:150px;
+}
+
+.pure-orange-background{
+	background-color:#ff4500;
+	height:150px;
+}
+
+.pure-yellow-background{
+	background-color:#FFD700;
+	height:150px;
+}
+
+.white-background{
+	background-color:#fff;
+	height:150px;
+}
+
+.softblue-background{
+	background-color:#6495ed;
+	height:150px;
+}
+
+.blueviolent-background{
+	background-color:#8a2be2;
+	height:150px;
+}
+
+.darkgrey-background{
+	background-color:#999999;
+	height:150px;
+}
+
+.black-background{
+	background-color:#000;
+	height:150px;
+}
+#colour-text{
+	font-size:6em;
+	text-align:center;
+}
+
+#colour-text1{
+	color:#fff;
+	font-size:6em;
+	text-align:center;
+}
+
+#a{
+	font-family:'Antic Slab', serif;
+	font-size:3em;
+	text-align: center;
+}
+
+#b{
+	font-family: 'Bebas Neue', cursive;
+	font-size:3em;
+	text-align: center;
+}
+
+
+#c1{
+	font-family:'Cairo', sans-serif;
+	font-size:3em;
+	text-align: center;
+}
+
+#c2{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size:3em;
+	text-align: center;
+}
+
+#g{
+	font-familiy:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size:3em;
+	text-align: center;
+}
+
+#s{
+	font-family: 'Smooch', cursive;
+	font-size:3em;
+	text-align: center;
+}
+
+#link{
+	text-align: center;
+	font-size:25px;
+}
+
+#process-text{
+	font-size:21px;
+}
+

@@ -1,0 +1,219 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>My Gallery</title>
+	  <!-- Bootstrap CSS -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Cairo:wght@200&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+	  <link href="css/custom.css" rel="stylesheet">
+	  
+<style>
+	 body {
+      position: relative; 
+  }
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>	    
+  </head>
+  <body id="cv-background">
+	 <nav class="navbar navbar-expand-md bg-dark navbar-dark stick-top">
+		  <div class="container-fluid">
+		<a href="Index.html" class="pe-5"><img src="images/Webpage logo.svg" alt"my Website Logo" id="website-logo"></a>
+	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon" alt="navigation bar icon when collapse"></span>
+    </button>
+<div class="collapse navbar-collapse" id="mynavbar">
+<ul class="navbar-nav me-auto">
+	<li class="nav-item pe-5">
+		<a class="nav-link" href="Index.html" alt="Main Page"> Main</a>
+	</li>
+	<li class="nav-item pe-5">
+		<a class="nav-link" href="My_Gallery.html" alt="My Production"> My Production </a>
+	</li>
+	<li class="nav-item pe-5">
+		<a class="nav-link" href="My_CV.html" alt="My CV"> My CV </a>
+	</li>
+	<li class="nav-item pe-5">
+		<a class="nav-link" href="Blog.html" alt="My Blog"> Blog </a>
+	</li>
+	<li class="nav-item pe-5">
+		<a class="nav-link" href="form.html" alt="Form"> Form </a>
+	</li>
+	<li class="nav-item pe-5">
+		<a class="nav-link" href="Process.html" alt="Process"> Process Page </a>
+	</li>
+	</ul>
+ </div>
+		  </div>
+	  </nav>
+	  <div class="container-fluid p-5 home">
+		  <h1 class="title" alt="greeting">Welcome to my production page</h1>
+		  <p class="caption" alt="self introduction">I love photography, graphics designing and video shooting. Scroll down to see more.</p>
+		  
+		  <div class="container1">
+		  <div class="row">	  
+			  
+	<div class="col-12 col-sm-12 col-xl-4 pt-4">
+    <img class="card-img-top" src="images/DSC_0631.JPG" alt="Liberty Statue" width="500" height="400">
+    <div class="card-body">
+      <h4 class="card-title">Photographs</h4>
+      <p class="card-text">I like taking photographs while I travel. Scroll down to see and click on the pictures to see more details.</p>
+		</div>
+	 </div> 
+	<div class="col-12 col-sm-12 col-xl-4 pt-4">
+    <img class="card-img-top" src="images/6.PNG" alt="Drawing Picture" width="500" height="400">
+    <div class="card-body">
+      <h4 class="card-title">Drawings</h4>
+      <p class="card-text">I like drawing as well. Scroll down to see my art works in other UTM courses and click on the pictures to see more details.</p>
+		</div>
+	 </div>
+			  <div class="col-12 col-sm-12 col-xl-4 pt-4">
+    <img class="card-img-top" src="images/Macor_Yuen_cinemagraph.gif" alt="Video" width="500" height="400" alt="A moving gif picture">
+    <div class="card-body">
+      <h4 class="card-title">Videos</h4>
+      <p class="card-text">I like to shoot video to record fun things happen in daily life. Scroll down to see the video I shot before.</p>
+		</div>
+	 </div> 
+	 </div>
+	
+<div class="container-fluid p-5 photograph">
+	<h2 class="drawings-title" alt="photographs">Photographs</a>
+	</div>
+	<div class="row">
+		
+  <div class="column1 col-12 col-sm-12 col-md-6 col-xl-4 p-2">
+  <img src="images/IMAG0796.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow" width="365" height="365" alt="A picture of ice">
+  </div>
+  <div class="column1 col-12 col-sm-12 col-md-6 col-xl-4 p-2">
+    <img src="images/IMG_8412.JPG" onclick="openModal();currentSlide(2)" class="hover-shadow" width="365"height="365" alt="scenery picture">
+  </div>
+  <div class="column1 col-12 col-sm-12 col-md-4 col-xl-4 p-2">
+    <img src="images/IMAG0532.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow" width="365"height="365" alt="pavilion picture">
+  </div>	  
+		
+	<div class="container-fluid p-5 drawings">
+	<h2 class="drawings-title" alt="drawings">Drawings</a>	
+		</div>
+		
+<div class="column1 col-12 col-sm-12 col-md-6 col-xl-4 p-2">
+  <img src="images/2.PNG" onclick="openModal();currentSlide(4)" class="hover-shadow" width="365" height="365" alt="playground slides drawing">
+		</div>
+	<div class="column1 col-12 col-sm-12 col-md-6 col-xl-4 p-2">
+  <img src="images/5.PNG" onclick="openModal();currentSlide(5)" class="hover-shadow" width="365" height="365" alt="Jenga drawing">
+		</div>
+	<div class="column1 col-12 col-sm-12 col-md-6 col-xl-4 p-2">
+  <img src="images/3.PNG" onclick="openModal();currentSlide(6)" class="hover-shadow" width="365" height="365" alt="washroom drawing">
+  </div>
+	</div>
+			  
+	<div class="container-fluid p-5 videos">
+	<h2 class="drawings-title" alt="videos">Videos</a>	
+			  </div>
+	<div class="video-spotlight">
+	<video autoplay muted loop>
+	<source src="videos/MVI_3183_edited.mp4" type="video/mp4" alt="A video of making a tornado in a waterbottle">
+	your browser does not support HTML5 for playback of this video.
+		</video>
+	<div class="video-caption" alt="video-caption">
+	<h1 alt="making tornado in a waterbottle">Making tornado in a waterbottle</h1>
+	
+	</div>
+		</div>
+		
+<!-- The Modal/Lightbox -->
+	<div id="myModal1" class="modal1">
+  <span class="close cursor" alt="close cursor" onclick="closeModal()">&times; </span>
+  <div class="modal-content1">
+    <div class="mySlides1">
+      <img src="images/IMAG0796.jpg" style="width:100%" alt="Ice picture with 100% width">
+    </div>
+
+    <div class="mySlides1">
+      <img src="images/IMG_8412.JPG" style="width:100%" alt="scenery picture with 100% width">
+    </div>
+
+    <div class="mySlides1">
+      <img src="images/IMAG0532.jpg" style="width:100%" alt="pavilion picture with 100% width">
+	  </div>
+	  
+	<div class="mySlides1">
+      <img src="images/2.PNG" style="width:100%" alt="playground slides drawing with 100% width">
+	  </div>
+		
+	<div class="mySlides1">
+      <img src="images/5.PNG" style="width:100%" alt="jenga drawing with 100% width">
+	  </div>
+		
+	<div class="mySlides1">
+      <img src="images/3.PNG" style="width:100%" alt="washroom drawing with 100% width">
+	  </div>
+			</div>
+			  </div>
+		  </div>
+			 
+			  
+	
+		  
+		  
+	  
+<!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="js/bootstrap.bundle.js"> </script>
+			  
+<script>
+function openModal() {
+  document.getElementById("myModal1").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal1").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides1");
+  var dots = document.getElementsByClassName("demo1");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace("active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+	
+		
+</body>
+</html>

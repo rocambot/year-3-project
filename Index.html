@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Index</title>
+ <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+	 <link href="css/custom.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Smooch&display=swap" rel="stylesheet">
+</head>
+<style>
+	 body {
+      position: relative; 
+  }
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>	    
+  </head>
+	 <nav class="navbar navbar-expand-md bg-dark navbar-dark stick-top">
+		  <div class="container-fluid">
+		<a href="Index.html" class="pe-5"><img src="images/Webpage logo.svg" alt"my Website Logo" id="website-logo"></a>
+	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon" alt="navigation bar icon when collapse"></span>
+    </button>
+<div class="collapse navbar-collapse" id="mynavbar">
+<ul class="navbar-nav me-auto">
+	<li class="nav-item pe-5">
+		<a class="nav-link" href="Index.html" alt="Main Page"> Main</a>
+	</li>
+	<li class="nav-item pe-5">
+		<a class="nav-link" href="My_Gallery.html" alt="My Production"> My Production </a>
+	</li>
+	<li class="nav-item pe-5">
+		<a class="nav-link" href="My_CV.html" alt="My CV"> My CV </a>
+	</li>
+	<li class="nav-item pe-5">
+		<a class="nav-link" href="Blog.html" alt="My Blog"> Blog </a>
+	</li>
+	<li class="nav-item pe-5">
+		<a class="nav-link" href="form.html" alt="Form"> Form </a>
+	</li>
+	<li class="nav-item pe-5">
+		<a class="nav-link" href="Process.html" alt="Process"> Process Page </a>
+	</li>
+	</ul>
+ </div>
+		  </div>
+	  </nav>
+<body id="ff">
+	<div class="wrap">
+  <div id="arrow-left" class="arrow" alt="arrow left"></div>
+  <div id="slider">
+    <div class="slide slide1" alt="background 1">
+      <div class="slide-content">
+        <span alt="Einstein's Quote">“Strive not to be a success, but rather to be of value.”– Albert Einstein</span>
+      </div>
+    </div>
+    <div class="slide slide2" alt="background 2">
+      <div class="slide-content">
+      </div>
+    </div>
+    <div class="slide slide3" alt="background 3">
+      <div class="slide-content">
+      </div>
+    </div>
+  </div>
+  <div id="arrow-right" class="arrow" alt="arrow right"></div>
+</div>
+	 <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="js/bootstrap.bundle.js"></script>
+	<script>
+	
+	let sliderImages = document.querySelectorAll(".slide"),
+  arrowLeft = document.querySelector("#arrow-left"),
+  arrowRight = document.querySelector("#arrow-right"),
+  current = 0;
+
+// Clear all images
+function reset() {
+  for (let i = 0; i < sliderImages.length; i++) {
+    sliderImages[i].style.display = "none";
+  }
+}
+
+// Init slider
+function startSlide() {
+  reset();
+  sliderImages[0].style.display = "block";
+}
+
+// Show prev
+function slideLeft() {
+  reset();
+  sliderImages[current - 1].style.display = "block";
+  current--;
+}
+
+// Show next
+function slideRight() {
+  reset();
+  sliderImages[current + 1].style.display = "block";
+  current++;
+}
+
+// Left arrow click
+arrowLeft.addEventListener("click", function() {
+  if (current === 0) {
+    current = sliderImages.length;
+  }
+  slideLeft();
+});
+
+// Right arrow click
+arrowRight.addEventListener("click", function() {
+  if (current === sliderImages.length - 1) {
+    current = -1;
+  }
+  slideRight();
+});
+
+startSlide();
+</script>
+</body>
+</html>

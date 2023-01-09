@@ -1,0 +1,173 @@
+<!doctype html>
+<html>
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Bebas+Neue&family=Cairo:wght@200&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+	
+    <link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
+	
+<title>Form</title>
+</head>
+<style>
+	 body {
+      position: relative; 
+  }
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>	    
+  </head>
+<body id="cv-background">
+	<nav class="navbar navbar-expand-md bg-dark navbar-dark stick-top">
+		  <div class="container-fluid">
+		<a href="Index.html" class="pe-5"><img src="images/Webpage logo.svg" alt"my Website Logo" id="website-logo"></a>
+	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon" alt="navigation bar icon when collapse"></span>
+    </button>
+<div class="collapse navbar-collapse" id="mynavbar">
+<ul class="navbar-nav me-auto">
+	<li class="nav-item pe-5">
+		<a class="nav-link" href="Index.html" alt="Main Page"> Main</a>
+	</li>
+	<li class="nav-item pe-5">
+		<a class="nav-link" href="My_Gallery.html" alt="My Production"> My Production </a>
+	</li>
+	<li class="nav-item pe-5">
+		<a class="nav-link" href="My_CV.html" alt="My CV"> My CV </a>
+	</li>
+	<li class="nav-item pe-5">
+		<a class="nav-link" href="Blog.html" alt="My Blog"> Blog </a>
+	</li>
+	<li class="nav-item pe-5">
+		<a class="nav-link" href="form.html" alt="Form"> Form </a>
+	</li>
+	<li class="nav-item pe-5">
+		<a class="nav-link" href="Process.html" alt="Process"> Process Page </a>
+	</li>
+	</ul>
+ </div>
+		  </div>
+	  </nav>
+<div class ="container mt-3">
+	<h1 id="hi" alt="my message"> Send me a message if you have any questions</h1>
+	<form>
+		<div class="row">
+		<div class ="col p-3">
+	<label for="title" id="form-font" alt="Your Title">Title:</label>
+
+	<select id="title" class="form-select" id="commentType">
+  	<option value="Mr." alt="Mister">Mr.</option>
+  	<option value="Ms." alt="Miss">Ms.</option>
+  	<option value="Mrs." alt="Mrs.">Mrs.</option>
+  	<option value="Mx." alt="Mx.">Mx.</option>
+	<option value="Master" alt="Master">Master</option>
+	<option value="Dr." alt="Doctor">Dr.</option>
+  	</select>
+		</div>
+		<div class="col">
+			<label for="firstName" id="form-font" div="first name">First Name:</label>
+	<input class="form-control" type="text" placeholder="Enter First Name" name="firstName" id="firstName" alt="enter your first name">	
+		</div>
+		
+	<div class ="row">
+		
+	<div class ="col">
+<label for="middleName" id="form-font" alt="middle name">Middle Name (Optional):</label>
+	<input class="form-control" type="text" placeholder="Enter Middle Name (Optional)" name="middleName" id="middleName" alt="enter middle name (optional)">	
+		   </div>
+		<div class ="col">
+<label for="lastName" id="form-font" alt="last name">Last Name:</label>
+	<input class="form-control" type="text" placeholder="Enter Last Name" name="lastName" id="lastName" alt="enter last name">		
+		</div>	
+		</div>
+		<div class="mt-2">
+			<label class="sr-only" id="form-font" for="email" alt="email" >Email:</label>
+			<input class="form-control" type="text" placeholder="Enter your email" name="email" id="email" alt="enter your email">
+	</div>
+	<div class="mt-3">
+		 <label for="comment" id="form-font" alt="complaints & feedbacks">Complaints &amp; Feedbacks:</label>
+     <textarea class="form-control" name="comments" placeholder="Feel free to express your opinion. Everything will be confidential here." id ="comments" rows="8" cols="45" alt="comment column"></textarea>
+
+		
+		  <div class="container mt-3">
+			  <div class="col-3 col-12 col-sm-12 col-md-12 col-xl-12">
+				  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal" alt="send information button">
+					Send Information
+				  </button>
+				  <input class="btn btn-danger" type="reset" name="reset" value="Reset & Erase Everything" alt="reset button">
+			  </div>
+
+					<div class="modal fade" id="myModal">
+					  <div class="modal-dialog">
+						<div class="modal-content">
+
+						  <div class="modal-header">
+							<h4 class="modal-title" alt="success alert">Success!</h4>
+							<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+						  </div>
+
+						  <div class="modal-body" alt="body text">
+							You have successfully send your information!
+						  </div>
+							
+						  <div class="modal-footer" alt="close box">
+							<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+						  </div>
+
+						</div>
+					  </div>
+					</div>  
+				</div>
+ <div class ="mt-3">
+		
+			</div>
+		</div>
+</div>	
+	</div>
+	
+	
+
+		</main>
+
+    
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="js/bootstrap.bundle.js"></script>
+
+	<script>
+	// Initialize tooltips
+	var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+	var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+	  return new bootstrap.Tooltip(tooltipTriggerEl)
+	})
+	</script>
+	  
+		
+	
+
+
+</body>
+</html>
+
+   
+	  
+
+
+	 
